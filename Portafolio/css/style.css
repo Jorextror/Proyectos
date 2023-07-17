@@ -15,7 +15,7 @@ body {
   overflow: hidden; }
 
 header {
-  background: url("../img/bg.jpg");
+  background: url("../img/bg.jpg"), #49A3D6;
   background-repeat: no-repeat;
   background-position: center;
   max-height: 600px; }
@@ -28,8 +28,7 @@ header {
       padding-bottom: 9px;
       display: inline-block;
       text-decoration: none;
-      border: 2px solid transparent;
-      font-size: 1em; }
+      border-bottom: 2px solid transparent; }
       header .menu a:hover {
         border-bottom: 2px solid #fff; }
   header .contenedor-text {
@@ -51,7 +50,7 @@ header {
         color: #fff;
         font-size: 50px;
         line-height: 50px; }
-      header .contenedor-text .text .nombre {
+      header .contenedor-text .text .name {
         margin-bottom: 10px;
         font-size: 50px;
         line-height: 50px; }
