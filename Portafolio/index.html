@@ -12,9 +12,9 @@
     <header>
         <div class="contenedor">
             <nav class="menu">
-                <a href="#">Acerca de</a>
-                <a href="#">Trabajos</a>
-                <a href="#">Contacto</a>
+                <a href="#acerca_de">Acerca de</a>
+                <a href="#trabajos">Trabajos</a>
+                <a href="#contacto">Contacto</a>
             </nav>
 
             <div class="contenedor-text">
@@ -27,7 +27,7 @@
     </header>
 
     <section class="main">
-        <section class="acerca-de">
+        <section class="acerca-de" id="acerca_de">
             <div class="contenedor">
                 <div class="foto">
                     <img src="img/foto.jpg" width="115" alt="Jordi Oliveda">
@@ -39,63 +39,46 @@
                 </div>
             </div>
         </section>
-        <section class="trabajos">
+        <section class="trabajos" id="trabajos">
             <div class="contenedor">
                 <h3 class="titulo">Trabajos</h3>
 
                 <div class="contenedor-trabajos">
                     <div class="trabajo">
                         <div class="thumb">
-                            <img src="img/trabajos/1.png" alt="angular">
+                            <a href="https://jordi-restaurante.netlify.app"><img src="img/trabajos/restaurante.PNG" alt="angular"></a>
                         </div>
                         <div class="descripcion">
-                            <p class="nombre">angular</p>
-                            <p class="categoria">HTML - CSS - JS - Angular</p>
+                            <p class="nombre">Web Restaurante</p>
+                            <p class="categoria">HTML - CSS - SCSS - JQuery </p>
                         </div>
                     </div>
                     <div class="trabajo">
                         <div class="thumb">
-                            <img src="img/trabajos/2.jpeg" alt="angular">
+                            <a href="https://jordi-startup.netlify.app"><img src="img/trabajos/startup.PNG" alt="angular"></a>
                         </div>
                         <div class="descripcion">
-                            <p class="nombre">angular</p>
-                            <p class="categoria">HTML - CSS - JS - Angular</p>
+                            <p class="nombre">Web Startup</p>
+                            <p class="categoria">HTML - CSS - SCSS - Bootstrap </p>
                         </div>
                     </div>
                     <div class="trabajo">
                         <div class="thumb">
-                            <img src="img/trabajos/3.png" alt="angular">
+                            <a href="https://bootstrap-tienda.netlify.app"><img src="img/trabajos/bootstrap.PNG" alt="angular"></a>
                         </div>
                         <div class="descripcion">
-                            <p class="nombre">angular</p>
-                            <p class="categoria">HTML - CSS - JS - Angular</p>
+                            <p class="nombre">Tienda Bootstrap</p>
+                            <p class="categoria">HTML - Bootstrap</p>
                         </div>
                     </div>
-                    <div class="trabajo">
-                        <div class="thumb">
-                            <img src="img/trabajos/4.png" alt="angular">
-                        </div>
-                        <div class="descripcion">
-                            <p class="nombre">angular</p>
-                            <p class="categoria">HTML - CSS - JS - Angular</p>
-                        </div>
-                    </div>
-                    <div class="trabajo">
-                        <div class="thumb">
-                            <img src="img/trabajos/5.png" alt="angular">
-                        </div>
-                        <div class="descripcion">
-                            <p class="nombre">django</p>
-                            <p class="categoria">HTML - CSS - python - django</p>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </section>
     </section>
 
     <footer>
-        <section class="contacto">
+        <section class="contacto" id="contacto">
             <div class="contenedor">
                 <h3 class="titulo">Contacto</h3>
                 <form action="" class="formulario">
@@ -109,7 +92,8 @@
 
         <section class="redes-sociales">
             <div class="contenedor">
-                <a href="" class="github"><i class="fa-brands fa-github"></i></a>
+                <a href="https://github.com/Jorextror" class="github"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/jordi-oliveda-a5625919/" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
             </div>
         </section>
     </footer>

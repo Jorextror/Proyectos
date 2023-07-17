@@ -205,6 +205,8 @@ footer .redes-sociales {
     justify-content: center; }
   footer .redes-sociales .github:hover {
     background: #333; }
+  footer .redes-sociales .linkedin:hover {
+    background: #0a66c2; }
 
 @media screen and (max-width: 800px) {
   header .menu {
