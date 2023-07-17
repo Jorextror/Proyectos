@@ -1,0 +1,16 @@
+@import "general";
+
+@import "header";
+
+@import "main";
+
+footer{
+    background: #000;
+    .copyright{
+        text-align: center;
+        padding: 15px 0;
+        color: #fff;
+    }
+}
+
+@import "mediaQueries";

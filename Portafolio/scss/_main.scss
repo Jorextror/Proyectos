@@ -1,0 +1,95 @@
+.main{
+    .contenedor{
+        overflow: visible;
+    }
+    .acerca-de{
+        text-align: center;
+        .foto{
+            margin-top: -60px;
+            img{
+                vertical-align: top;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                border: 5px solid rgba(255,255,255,0.2);
+            }   
+        }
+        .text{
+            color: #5a5a5a;
+            font-weight: 600;
+            font-size: 1em;
+            line-height: 30px;
+            width: 80%;
+            margin: 40px auto 60px auto;
+            .titulo{
+                font-size: 34px;
+                line-height: 34px;
+                margin-bottom: 40px;
+                font-weight: 300;
+                color: #dd820d;
+                text-align: center;
+            }
+            .bold{
+                color: #3895ae;
+                text-decoration: underline;
+            }
+        }
+    }
+    .trabajos{
+        background: #f2f2f2;
+        padding: 60px 0;
+        .contenedor{
+            overflow: hidden;
+        }
+        .titulo{
+            font-size: 34px;
+            line-height: 34px;
+            margin-bottom: 40px;
+            font-weight: 300;
+            color: #323068;
+            text-align: center;
+        }
+        .contenedor-trabajos{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .trabajo{
+                width: 25%;
+                margin-bottom: 40px;
+                .thumb{
+                    width: 100%;
+                    margin-bottom: 10px;
+                    img{
+                        width: 100%;
+                        vertical-align: top;
+                        border-radius: 3px;
+                        -webkit-border-radius: 3px;
+                        -moz-border-radius: 3px;
+                        -ms-border-radius: 3px;
+                        -o-border-radius: 3px;
+}
+                }
+                img{
+                    width: 500px;
+                    height: 200px;
+                }
+                .descripcion{
+                    text-align: center;
+                    .nombre{
+                        font-weight: 700;
+                        color: #3895ea;
+                        margin-bottom: 10px;
+                    }
+                    .categoria{
+                        font-size: 14px;
+                        color: #636363;
+                    }
+                }
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,53 @@
+header{
+    background: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    max-height: 600px;
+    .menu{
+        margin: 40px 0;
+        text-align: right;
+        a{
+            margin: 0 20px;
+            color: #fff;
+            padding-bottom: 9px;
+            display: inline-block;
+            text-decoration: none;
+            border: 2px solid transparent;
+            font-size: 1em;
+            &:hover{
+                border-bottom: 2px solid #fff;
+            }
+        }
+    }
+    .contenedor-text{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin: 190px 0;
+        .text{
+            border: 2px solid #ffffff80;
+            border-radius: 3px;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            -ms-border-radius: 3px;
+            -o-border-radius: 3px;
+            display: inline-block;
+            text-align: center;
+            padding: 20px 60px;
+            h1,h2{
+                color: #fff;
+                font-size: 50px;
+                line-height: 50px;
+            }
+            .nombre{
+                margin-bottom: 10px;
+                font-size: 50px;
+                line-height: 50px;
+            }
+            .profesion{
+                font-size: 25px;
+                line-height: 25px;
+            }
+        }
+    }
+}
