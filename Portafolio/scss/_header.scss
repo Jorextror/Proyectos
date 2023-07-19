@@ -3,6 +3,7 @@ header{
     background-repeat: no-repeat;
     background-position: center;
     max-height: 600px;
+
     .menu{
         margin: 40px 0;
         text-align: right;
@@ -17,6 +18,7 @@ header{
                 border-bottom: 2px solid #fff;
             }
         }
+        
     }
     .contenedor-text{
         display: flex;
@@ -46,6 +48,37 @@ header{
             .profesion{
                 font-size: 25px;
                 line-height: 25px;
+            }
+
+            .redes-sociales{
+                a{
+                    color: #fff;
+                    text-align: center;
+                    width: 100px;
+                    display: block;
+                    padding: 15px 0;
+                    border-radius: 3px;
+                    -webkit-border-radius: 3px;
+                    -moz-border-radius: 3px;
+                    -ms-border-radius: 3px;
+                    -o-border-radius: 3px;
+                    font-size: 20px;
+                    background: #ccc;
+                    margin: 0 20px;
+                }
+                .contenedor{
+                    display: flex;
+                    justify-content: center;
+                }
+                .github:hover{
+                    background: #333;
+                }
+                .linkedin:hover{
+                    background: #0a66c2;
+                }
+                .gmail:hover{
+                    background: #4285f4;
+                }
             }
         }
     }

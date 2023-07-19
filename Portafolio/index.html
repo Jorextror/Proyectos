@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,20 +8,31 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
 </head>
 <body>
+    <!-- TODO descargar cv, skills, boton subir -->
     <header>
         <div class="contenedor">
             <nav class="menu">
                 <a href="#acerca_de">Acerca de</a>
                 <a href="#trabajos">Trabajos</a>
+                <a href="#habilidades">Habilidades</a>
                 <a href="#contacto">Contacto</a>
+                <a href="assets/CV_JordiOliveda.pdf">Descargar CV</a>
             </nav>
 
             <div class="contenedor-text">
                 <div class="text">
                     <h1 class="name">Jordi Oliveda</h1>
-                    <h2 class="profesion">Desarrollador Web</h2>
+                    <h2 class="profesion">Desarrollador Web</h2>    
+                    <section class="redes-sociales">
+                        <div class="contenedor">
+                            <a href="https://github.com/Jorextror" class="github"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/jordi-oliveda-a5625919/" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="mailto:joliveda@gmail.com" class="gmail"><i class="fa-solid fa-envelope"></i></a>
+                        </div>
+                    </section>
                 </div>
             </div>
         </div>
@@ -42,6 +54,7 @@
                 </div>
             </div>
         </section>
+
         <section class="trabajos" id="trabajos">
             <div class="contenedor">
                 <h3 class="titulo">Trabajos</h3>
@@ -54,6 +67,8 @@
                         <div class="descripcion">
                             <p class="nombre">Web Restaurante</p>
                             <p class="categoria">HTML - CSS - SCSS - JQuery </p>
+                            <a href="https://github.com/Jorextror/Proyectos/tree/master/Restaurante" class="github"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://jordi-restaurante.netlify.app" class="github"><i class="fa-solid fa-globe"></i></a>
                         </div>
                     </div>
                     <div class="trabajo">
@@ -63,6 +78,8 @@
                         <div class="descripcion">
                             <p class="nombre">Web Startup</p>
                             <p class="categoria">HTML - CSS - SCSS - Bootstrap </p>
+                            <a href="https://github.com/Jorextror/Proyectos/tree/master/startup" class="github"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://jordi-startup.netlify.app" class="github"><i class="fa-solid fa-globe"></i></a>
                         </div>
                     </div>
                     <div class="trabajo">
@@ -72,9 +89,56 @@
                         <div class="descripcion">
                             <p class="nombre">Tienda Bootstrap</p>
                             <p class="categoria">HTML - Bootstrap</p>
+                            <a href="https://github.com/Jorextror/Proyectos/tree/master/Bootstrap" class="github"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://bootstrap-tienda.netlify.app" class="github"><i class="fa-solid fa-globe"></i></a>
                         </div>
                     </div>
                     
+                </div>
+            </div>
+        </section>
+
+        <section class="habilidades" id="habilidades">
+            <div class="contenedor">
+                <h3 class="titulo">Habilidades</h3>
+
+                <div class="contenedor-habilidades">
+                    <div class="habilidad">
+                        <img src="img/habilidades/html-5.png" alt="">
+                        <p class="name">HTML</p>
+                    </div>
+                    <div class="habilidad">
+                        <img src="img/habilidades/sass.png" alt="">
+                        <p class="name">SASS</p>
+                    </div>
+                    <div class="habilidad">
+                        <img src="img/habilidades/js.png" alt="">
+                        <p class="name">JavaScript</p>
+                    </div>
+                    <div class="habilidad">
+                        <img src="img/habilidades/piton.png" alt="">
+                        <p class="name">Python</p>
+                    </div>
+                    <div class="habilidad">
+                        <img src="img/habilidades/php.png" alt="">
+                        <p class="name">PHP</p>
+                    </div>
+                    <div class="habilidad">
+                        <img src="img/habilidades/angular.png" alt="">
+                        <p class="name">Angular</p>
+                    </div>
+                    <div class="habilidad">
+                        <img src="img/habilidades/laravel.png" alt="">
+                        <p class="name">Laravel</p>
+                    </div>
+                    <div class="habilidad">
+                        <img src="img/habilidades/node.png" alt="">
+                        <p class="name">Node.JS</p>
+                    </div>
+                    <div class="habilidad">
+                        <img src="img/habilidades/mysql.png" alt="">
+                        <p class="name">MySQL</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -97,6 +161,7 @@
             <div class="contenedor">
                 <a href="https://github.com/Jorextror" class="github"><i class="fa-brands fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/jordi-oliveda-a5625919/" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="mailto:joliveda@gmail.com" class="gmail"><i class="fa-solid fa-envelope"></i></a>
             </div>
         </section>
     </footer>
