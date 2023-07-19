@@ -2,7 +2,7 @@ header{
     background: url('../img/bg.jpg'), #49A3D6;
     background-repeat: no-repeat;
     background-position: center;
-    max-height: 600px;
+    max-height: 650px;
 
     .menu{
         margin: 40px 0;
@@ -57,14 +57,14 @@ header{
                     width: 100px;
                     display: block;
                     padding: 15px 0;
+                    font-size: 20px;
+                    background: #ccc;
+                    margin: 0 20px;
                     border-radius: 3px;
                     -webkit-border-radius: 3px;
                     -moz-border-radius: 3px;
                     -ms-border-radius: 3px;
                     -o-border-radius: 3px;
-                    font-size: 20px;
-                    background: #ccc;
-                    margin: 0 20px;
                 }
                 .contenedor{
                     display: flex;
@@ -78,6 +78,31 @@ header{
                 }
                 .gmail:hover{
                     background: #4285f4;
+                }
+            }
+            .cv{
+                display: inline-block;
+                justify-content: center;
+                align-content: center;
+                width: 45%;
+                margin-top: 20px;
+                a{
+                    font-size: 20px;
+                    display: block;
+                    padding: 15px 0;
+                    color: #000;
+                    text-align: center;
+                    text-decoration: none;
+                    border-bottom: 1px solid transparent;
+                    background: rgb(179, 255, 149);
+                    border-radius: 3px;
+                    -webkit-border-radius: 3px;
+                    -moz-border-radius: 3px;
+                    -ms-border-radius: 3px;
+                    -o-border-radius: 3px;
+                    &:hover{
+                        background: rgb(78, 219, 34);
+                    }
                 }
             }
         }
