@@ -149,10 +149,10 @@
         <section class="contacto" id="contacto">
             <div class="contenedor">
                 <h3 class="titulo">Contacto</h3>
-                <form action="" class="formulario">
-                    <input type="text" name="text" placeholder="Nombre" required>
-                    <input type="email" name="email" placeholder="Correo" required>
-                    <textarea name="mensaje" placeholder="Mensaje:"></textarea>
+                <form class="formulario" name="contact" method="POST" data-netlify="true">
+                    <input type="text" id="name" name="name" placeholder="Nombre" required>
+                    <input type="email" id="email" name="email" placeholder="Correo" required>
+                    <textarea id="message" name="mensaje" placeholder="Mensaje:"></textarea>
                     <input class="boton" type="submit" value="Enviar">
                 </form>
             </div>
@@ -166,5 +166,6 @@
             </div>
         </section>
     </footer>
+    <script src="js/form.js"></script>
 </body>
 </html>
